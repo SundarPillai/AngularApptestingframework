@@ -14,12 +14,19 @@ This folder contains all the libraries downloaded from npm.
 
 Project structure:
 
-DataProvider - Contains Input data required for the application login, webpages
+DataProvider - Contains Input data required for the application login, webpages.
+
 Node_Modules - Contains all the Libraries downloaded from npm.
-Pages - Contains locators for different webpages
+
+Pages - Contains locators for different webpages.
+
 Tests - Contains actual jasmine test files for logging in, Choose product and adding product to cart as of now.
-Package.json - Contains dependencies like protractor info,Jasmine Html reporter, Jasmine data provider
-Config.js --> This file drives the project, like it contains browser details in capabilities,Seleniumaddress, Specs to run, Reporting details, OnPrepare,Oncomplete functions
+
+Package.json - Contains dependencies like protractor info,Jasmine Html reporter, Jasmine data provider.
+
+Config.js --> This file drives the project, like it contains browser details in capabilities,Seleniumaddress, 
+Specs to run, Reporting details, OnPrepare,Oncomplete functions.
+
 Spec.js -->Contains the actual test case to be executed.
 
 
